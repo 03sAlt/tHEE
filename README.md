@@ -20,8 +20,8 @@ local function CheckAd()
 	if getgenv then
 		if not getgenv()["IrisAd"] then
 			getgenv()["IrisAd"] = true;
-			NotificationTable.Notify("Credits : 03.s#6260 Lura#0001", "Thanks For Use Script User.", "rbxassetid://7258709020", {
-				Duration = 7,
+			NotificationTable.Notify("Credits", "Credits : 03.s#6260", "rbxassetid://7258709020", {
+				Duration = 5,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
 					Font = Enum.Font.SourceSansSemibold,
@@ -34,12 +34,15 @@ local function CheckAd()
 					Retract = true
 				}
 			})
+
+
+
 		end
 	else
 		if not _G["IrisAd"] then
 			_G["IrisAd"] = true;
-			NotificationTable.Notify("Credits : 03.s#6260 Lura#0001", "Thanks For Use Script User.", "rbxassetid://7258709020", {
-				Duration = 7,
+			NotificationTable.Notify("Credits", "Credits : 03.s#6260", {
+				Duration = 5,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
 					Font = Enum.Font.SourceSansSemibold,
@@ -52,7 +55,11 @@ local function CheckAd()
 					Retract = true
 				}
 			})
-			
+			wait(.3)
+
+				
+
+
 		end
 	end
 	wait()
