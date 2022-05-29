@@ -20,7 +20,7 @@ local function CheckAd()
 	if getgenv then
 		if not getgenv()["IrisAd"] then
 			getgenv()["IrisAd"] = true;
-			NotificationTable.Notify("Credits", "Credits : 03.s#6260", "rbxassetid://7258709020", {
+			NotificationTable.Notify("Credits", "Credits : 03.s#6260", "http://www.roblox.com/asset/?id=9614208528", {
 				Duration = 10,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
