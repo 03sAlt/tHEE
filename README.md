@@ -21,7 +21,7 @@ local function CheckAd()
 		if not getgenv()["IrisAd"] then
 			getgenv()["IrisAd"] = true;
 			NotificationTable.Notify("Credits", "Credits : 03.s#6260", "rbxassetid://7258709020", {
-				Duration = 5,
+				Duration = 10,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
 					Font = Enum.Font.SourceSansSemibold,
@@ -42,7 +42,7 @@ local function CheckAd()
 		if not _G["IrisAd"] then
 			_G["IrisAd"] = true;
 			NotificationTable.Notify("Credits", "Credits : 03.s#6260", {
-				Duration = 5,
+				Duration = 10,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
 					Font = Enum.Font.SourceSansSemibold,
