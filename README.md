@@ -20,7 +20,7 @@ local function CheckAd()
 	if getgenv then
 		if not getgenv()["IrisAd"] then
 			getgenv()["IrisAd"] = true;
-			NotificationTable.Notify("Discord Tags", "Discord : 03.s#6260", "http://www.roblox.com/asset/?id=9614208528", {
+			NotificationTable.Notify("Discord", "Discord : 03.s#6260", "http://www.roblox.com/asset/?id=9614208528", {
 				Duration = 10,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
@@ -41,7 +41,7 @@ local function CheckAd()
 	else
 		if not _G["IrisAd"] then
 			_G["IrisAd"] = true;
-			NotificationTable.Notify("Discord Tags", "Discord : 03.s#6260", {
+			NotificationTable.Notify("Discord", "Discord : 03.s#6260", {
 				Duration = 10,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
