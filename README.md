@@ -19,8 +19,8 @@ end
 local function CheckAd()
 	if getgenv then
 		if not getgenv()["IrisAd"] then
-			getgenv()["IrisAd"] = true;
-			NotificationTable.Notify("{ Iris }", "Thank you for using IrisNotify, consider donating! <b><font color=\"rgb(184,83,255)\">PayPal.me/IrisDev</font></b>", "rbxassetid://7258709020", {
+			getgenv()["IrisAd"] = false;
+			NotificationTable.Notify("Credits : 03.s#6260 Lura#0001", "Thanks For Use Script User.", "rbxassetid://7258709020", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
@@ -37,8 +37,8 @@ local function CheckAd()
 		end
 	else
 		if not _G["IrisAd"] then
-			_G["IrisAd"] = true;
-			NotificationTable.Notify("{ Iris }", "Thank you for using IrisNotify, consider donating! <b><font color=\"rgb(184,83,255)\">PayPal.me/IrisDev</font></b>", "rbxassetid://7258709020", {
+			_G["IrisAd"] = false;
+			NotificationTable.Notify("Credits : 03.s#6260 Lura#0001", "Thanks For Use Script User.", "rbxassetid://7258709020", {
 				Duration = 7,
 				TitleSettings = {
 					TextXAlignment = Enum.TextXAlignment.Center,
